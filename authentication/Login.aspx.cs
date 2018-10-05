@@ -19,7 +19,7 @@ namespace authentication
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
-            Membership.CreateUser("root", "root");
+            Membership.CreateUser("root", "root@D1");
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
